@@ -1,1 +1,44 @@
-// TODO
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.bannerContainer {
+  max-width: 100%;
+  height: 400px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.mainContainer {
+  margin: 2.5rem auto;
+  max-width: 720px;
+}
+
+.post {
+  margin-top: 2.5rem;
+
+  h1 {
+    font: 700 3rem 'Inter', sans-serif;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+.postContent {
+  margin-top: 4rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+}

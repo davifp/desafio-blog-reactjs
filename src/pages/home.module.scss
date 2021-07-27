@@ -1,1 +1,40 @@
-// TODO
+.posts {
+  max-width: 720px;
+  margin: 5rem auto 0;
+
+  button{
+    color: var(--pink);
+    background: none;
+    border: none;
+    margin: 3rem 0;
+    padding-top: 1rem;
+
+  }
+
+a {
+  margin: 3rem auto;
+  display: block;
+  color: var(--gray-light);
+  line-height: 2rem;
+
+
+  & + a {
+    margin-top: 3rem;
+  }
+
+  strong {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: white;
+  }
+
+  p {
+    margin: 0.5rem auto 1.5rem;
+    line-height: 1.35rem;
+    font-size: 1.125rem;
+  }
+}
+
+}
+

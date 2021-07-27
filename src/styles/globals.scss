@@ -4,4 +4,25 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --gray-dark: #282C34;
+  --gray-light: #D7D7D7;
+  --pink: #FF57B2;
+
+}
+
+body {
+  background: var(--gray-dark);
+  color: white;
+  font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+  font: 600 1.125rem "Inter", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
